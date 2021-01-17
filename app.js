@@ -39,13 +39,7 @@ function updateName(){
 }
 
 function updateButtontext(){
-    // if(toss===1){
-    //     console.log("team 1 "+team1.name +"batting")
-    // }
-    // else{
-    //     console.log("team 2 "+team2.name +"batting")
-    // }
-//    console.log( `${toss===1?team1.name:team2.name}BATTING`);
+    
 var button = document.getElementById("strikebutton")
 var result=document.getElementById("result")
 result.style.visibility=""
@@ -102,7 +96,7 @@ function updateRuns(){
    team1.runs.forEach((run,index)=>{
        team1runs[index].textContent=run
    }); 
-//for(int i =0;i<n;i++)
+
 
    team2.runs.forEach((runs,i)=>{
     team2runs[i].textContent=runs;
